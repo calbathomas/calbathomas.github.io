@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <title>Tapis de Sierpinski</title>
+  </head>
+  <body>
+    <div class="coin">
+        <h1>Tapis de Sierpinski</h1>
+    </div>
+    <p id="centrage"><a href="file:///C:/Working/Thomas/Index.html">Retour Presentation</a>  </p>
+    <h3><strong>Description du programme</strong></h3>
+    <p>Le programme repose sur 4 fonctions principales : </p>
+    <ul> 
+      <li>Dessiner</li>
+      <li>RegleSierpinski</li>
+      <li>CourbeSierpinski</li>
+      <li>TriangleSierpinski</li>
+    </ul>
+      <p>
+      <strong>Dessiner</strong> permet de tracer une courbe avec un angle et une longueur donnees. Elle appelle <strong>TriangleSierpinski</strong> qui elle meme appelle <strong>CourbeSierpinski</strong> qui elle meme appelle        <strong>RegleSierpinski</strong>.</p>
+      <p><strong>TriangleSierpinski</strong> trace le motif initiale en fonction de Niter.</p>
+      <p><strong>CourbeSierpinski</strong> va appeller Niter fois la "regleSierpinski" pour creer la courbe de Sierpinski.</p>
+      <p><strong>RegleSierpinski</strong> permet le decodage de la chaine de caractere donnee.
+      </p>
+       <img src="images\Sierpinski_Niter2.PNG" alt="L'image ne peut s'afficher !"/>
+      <p id="centrage"> Tapis de Sierpinski avec Niter 2.</p>
+       <img src="images\Sierpinski_Niter5.PNG" alt="L'image ne peut s'afficher !"/>
+      <p id="centrage"> Tapis de Sierpinski avec Niter 5.</p>
+    <h3>Difficultes rencontrees</h3>
+    <p>Pendant la programmation, j'ai eu du mal a comprendre qu'il fallait appeler la fonction <strong>triangleSierpinski</strong> dans la fonction <strong>dessiner</strong>.</p>
+    <p>J'ai compris et resolu ce probleme en modifiant le code python du TP pour obtenir un flocon complet.</p>
+    <p>J'ai ensuite procede par analogie pour le tapis, sans difficultes majeures.</p>
+    <h3>Lien de telechargement du programme</h3>
+    <a href="download/Sierpinski.py" download="Sierpinski.py"> Telecharger le programme </a>     
+  </body>

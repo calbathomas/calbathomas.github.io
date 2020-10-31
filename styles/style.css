@@ -1,0 +1,91 @@
+html{
+  background-color: navy;   /* couleur de fond de la page */
+ }
+
+body {       /* marges et polices du corpsde la page */
+  width: 600px;
+  margin: 0 auto;
+  background-color: #00FFFF;
+  padding: 0 20px 20px 20px;
+  border: 5px solid #000000;
+  font-size: 100%;
+}
+
+h1 {    /* atributs des titres 1er niveau */
+  margin: 0;
+  padding: 20px 0;    
+  color: #00539F;
+  text-align: center;
+}
+
+h2 {  /* atributs des titres 2eme niveau */
+ font-size: 150%; 
+ color: #FF0000; 
+ padding-left: 15px;
+ }
+
+
+h3 {  /* atributs des titres 3eme niveau */
+ font-size: 125%; 
+ color: #000000; 
+ text-decoration: underline
+ }
+
+p,ul,li,td {  /* atributs pour les autres hors h1 et h2 */
+ color: #000000; 
+ }
+
+a {   /* gestion des liens hypertextes */
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #265301;
+}
+
+a:visited {
+  color: #437A16;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
+}
+
+a:hover {
+  border-bottom: 1px solid;     
+  background: #CDFEAA;
+}
+
+a:active {
+  background: #265301;
+  color: #CDFEAA;
+}
+
+img{          /*  centrer l image */
+    display: block;
+    margin: 0 auto;  
+}
+
+#centrage{  /*Centrer le texte */
+text-align: center;
+}
+
+.coin {     /* definition coins arrondis et carres, et marges */
+background-color:#E4EFFF;
+border:1px solid #9FC6FF;
+padding:5px;
+/*arrondir les coins en haut à gauche et en bas à droite*/
+-moz-border-radius:10px 0;
+-webkit-border-radius:10px 0;
+border-radius:10px 0;
+}
+
+.arrondie {   /* definition bordures arrondies et marges */
+border:2px solid #000000;
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+border-radius:7px;
+}
